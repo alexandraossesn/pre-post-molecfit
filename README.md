@@ -26,17 +26,17 @@ This repository contains a Python script designed to visualize spectroscopic dat
 ### Installation
 To set up the project on your local machine, follow these steps:
 
-1. # Clone the repository:
+1. ### Clone the repository:
    ```bash
    git clone https://github.com/your-username/molecfit-pre-post.git
    cd molecfit-pre-post
    
-2. # Install the required dependencies by running the following command in the terminal:
+2. ### Install the required dependencies by running the following command in the terminal:
     pip install -r requirements.txt
    
-3. # Use the script for visualization:
+3. ### Use the script for visualization:
 Place the Molecfit output file (TELLURIC_DATA.fits) in the working directory.
 Execute the script using the following command:
     python scripts/Pre_Post_Molecfit.py
    
-4. # The script will generate visualization plots of the raw (pre-Molecfit) and corrected (post-Molecfit) spectra. These plots will help you select appropriate wavelength ranges for further processing.
+4. ### The script will generate visualization plots of the raw (pre-Molecfit) and corrected (post-Molecfit) spectra. These plots will help you select appropriate wavelength ranges for further processing.
